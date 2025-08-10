@@ -24,7 +24,10 @@ body {
     line-height: 1.6;
     padding-top: 76px;
 }
-
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
 /* Dark Mode Styles */
 body.dark-mode {
     background-color: var(--darker-bg);
